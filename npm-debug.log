@@ -1,0 +1,319 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', '--save' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData angular2
+20 silly mapToRegistry name angular2
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'angular2',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'angular2',
+23 silly mapToRegistry   name: 'angular2',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/angular2
+25 silly fetchNamedPackageData systemjs
+26 silly mapToRegistry name systemjs
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'systemjs',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'systemjs',
+29 silly mapToRegistry   name: 'systemjs',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/systemjs
+31 silly fetchNamedPackageData es6-shim
+32 silly mapToRegistry name es6-shim
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'es6-shim',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'es6-shim',
+35 silly mapToRegistry   name: 'es6-shim',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/es6-shim
+37 silly fetchNamedPackageData reflect-metadata
+38 silly mapToRegistry name reflect-metadata
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'reflect-metadata',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'reflect-metadata',
+41 silly mapToRegistry   name: 'reflect-metadata',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/reflect-metadata
+43 silly fetchNamedPackageData rxjs
+44 silly mapToRegistry name rxjs
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'rxjs',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'rxjs',
+47 silly mapToRegistry   name: 'rxjs',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/rxjs
+49 silly fetchNamedPackageData zone.js
+50 silly mapToRegistry name zone.js
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'zone.js',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   escapedName: 'zone.js',
+53 silly mapToRegistry   name: 'zone.js',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/zone.js
+55 verbose request uri https://registry.npmjs.org/angular2
+56 verbose request no auth needed
+57 info attempt registry request try #1 at 9:34:07 AM
+58 verbose request id 9771437de3305e82
+59 http request GET https://registry.npmjs.org/angular2
+60 verbose request uri https://registry.npmjs.org/systemjs
+61 verbose request no auth needed
+62 info attempt registry request try #1 at 9:34:07 AM
+63 http request GET https://registry.npmjs.org/systemjs
+64 verbose request uri https://registry.npmjs.org/es6-shim
+65 verbose request no auth needed
+66 info attempt registry request try #1 at 9:34:07 AM
+67 http request GET https://registry.npmjs.org/es6-shim
+68 verbose request uri https://registry.npmjs.org/reflect-metadata
+69 verbose request no auth needed
+70 info attempt registry request try #1 at 9:34:07 AM
+71 http request GET https://registry.npmjs.org/reflect-metadata
+72 verbose request uri https://registry.npmjs.org/rxjs
+73 verbose request no auth needed
+74 info attempt registry request try #1 at 9:34:07 AM
+75 http request GET https://registry.npmjs.org/rxjs
+76 verbose request uri https://registry.npmjs.org/zone.js
+77 verbose request no auth needed
+78 info attempt registry request try #1 at 9:34:07 AM
+79 http request GET https://registry.npmjs.org/zone.js
+80 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+81 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+82 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+83 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+84 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+85 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+86 info attempt registry request try #2 at 9:34:17 AM
+87 http request GET https://registry.npmjs.org/zone.js
+88 info attempt registry request try #2 at 9:34:17 AM
+89 http request GET https://registry.npmjs.org/systemjs
+90 info attempt registry request try #2 at 9:34:17 AM
+91 http request GET https://registry.npmjs.org/es6-shim
+92 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+93 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+94 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+95 info attempt registry request try #2 at 9:34:17 AM
+96 http request GET https://registry.npmjs.org/angular2
+97 info attempt registry request try #2 at 9:34:17 AM
+98 http request GET https://registry.npmjs.org/rxjs
+99 info attempt registry request try #2 at 9:34:17 AM
+100 http request GET https://registry.npmjs.org/reflect-metadata
+101 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+102 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+103 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=407
+104 info attempt registry request try #3 at 9:35:17 AM
+105 http request GET https://registry.npmjs.org/zone.js
+106 info attempt registry request try #3 at 9:35:17 AM
+107 http request GET https://registry.npmjs.org/es6-shim
+108 info attempt registry request try #3 at 9:35:17 AM
+109 http request GET https://registry.npmjs.org/systemjs
+110 info attempt registry request try #3 at 9:35:17 AM
+111 http request GET https://registry.npmjs.org/reflect-metadata
+112 silly fetchPackageMetaData Error: tunneling socket could not be established, statusCode=407
+112 silly fetchPackageMetaData     at ClientRequest.onConnect (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:165:19)
+112 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+112 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+112 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+112 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+112 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+112 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+112 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+112 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+112 silly fetchPackageMetaData     at TCP.onread (net.js:548:20)
+112 silly fetchPackageMetaData  error for reflect-metadata@0.1.2 { Error: tunneling socket could not be established, statusCode=407
+112 silly fetchPackageMetaData     at ClientRequest.onConnect (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:165:19)
+112 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+112 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+112 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+112 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+112 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+112 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+112 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+112 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+112 silly fetchPackageMetaData     at TCP.onread (net.js:548:20) code: 'ECONNRESET' }
+113 info attempt registry request try #3 at 9:35:17 AM
+114 http request GET https://registry.npmjs.org/angular2
+115 info attempt registry request try #3 at 9:35:17 AM
+116 http request GET https://registry.npmjs.org/rxjs
+117 silly fetchPackageMetaData Error: tunneling socket could not be established, statusCode=407
+117 silly fetchPackageMetaData     at ClientRequest.onConnect (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:165:19)
+117 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+117 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+117 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+117 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+117 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+117 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+117 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+117 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+117 silly fetchPackageMetaData     at TCP.onread (net.js:548:20)
+117 silly fetchPackageMetaData  error for es6-shim@^0.35.0 { Error: tunneling socket could not be established, statusCode=407
+117 silly fetchPackageMetaData     at ClientRequest.onConnect (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:165:19)
+117 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+117 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+117 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+117 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+117 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+117 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+117 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+117 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+117 silly fetchPackageMetaData     at TCP.onread (net.js:548:20) code: 'ECONNRESET' }
+118 silly fetchPackageMetaData Error: tunneling socket could not be established, statusCode=407
+118 silly fetchPackageMetaData     at ClientRequest.onConnect (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:165:19)
+118 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+118 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+118 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+118 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+118 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+118 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+118 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+118 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+118 silly fetchPackageMetaData     at TCP.onread (net.js:548:20)
+118 silly fetchPackageMetaData  error for zone.js@0.6.6 { Error: tunneling socket could not be established, statusCode=407
+118 silly fetchPackageMetaData     at ClientRequest.onConnect (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:165:19)
+118 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+118 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+118 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+118 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+118 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+118 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+118 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+118 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+118 silly fetchPackageMetaData     at TCP.onread (net.js:548:20) code: 'ECONNRESET' }
+119 silly fetchPackageMetaData Error: tunneling socket could not be established, statusCode=407
+119 silly fetchPackageMetaData     at ClientRequest.onConnect (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:165:19)
+119 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+119 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+119 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+119 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+119 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+119 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+119 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+119 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+119 silly fetchPackageMetaData     at TCP.onread (net.js:548:20)
+119 silly fetchPackageMetaData  error for systemjs@0.19.25 { Error: tunneling socket could not be established, statusCode=407
+119 silly fetchPackageMetaData     at ClientRequest.onConnect (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:165:19)
+119 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+119 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+119 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+119 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+119 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+119 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+119 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+119 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+119 silly fetchPackageMetaData     at TCP.onread (net.js:548:20) code: 'ECONNRESET' }
+120 silly fetchPackageMetaData Error: tunneling socket could not be established, statusCode=407
+120 silly fetchPackageMetaData     at ClientRequest.onConnect (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:165:19)
+120 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+120 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+120 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+120 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+120 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+120 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+120 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+120 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+120 silly fetchPackageMetaData     at TCP.onread (net.js:548:20)
+120 silly fetchPackageMetaData  error for rxjs@5.0.0-beta.2 { Error: tunneling socket could not be established, statusCode=407
+120 silly fetchPackageMetaData     at ClientRequest.onConnect (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:165:19)
+120 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+120 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+120 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+120 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+120 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+120 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+120 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+120 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+120 silly fetchPackageMetaData     at TCP.onread (net.js:548:20) code: 'ECONNRESET' }
+121 silly fetchPackageMetaData Error: tunneling socket could not be established, statusCode=407
+121 silly fetchPackageMetaData     at ClientRequest.onConnect (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:165:19)
+121 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+121 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+121 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+121 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+121 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+121 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+121 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+121 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+121 silly fetchPackageMetaData     at TCP.onread (net.js:548:20)
+121 silly fetchPackageMetaData  error for angular2@2.0.0-beta.14 { Error: tunneling socket could not be established, statusCode=407
+121 silly fetchPackageMetaData     at ClientRequest.onConnect (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:165:19)
+121 silly fetchPackageMetaData     at ClientRequest.g (events.js:291:16)
+121 silly fetchPackageMetaData     at emitThree (events.js:116:13)
+121 silly fetchPackageMetaData     at ClientRequest.emit (events.js:194:7)
+121 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:395:11)
+121 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+121 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+121 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:176:18)
+121 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:134:10)
+121 silly fetchPackageMetaData     at TCP.onread (net.js:548:20) code: 'ECONNRESET' }
+122 silly rollbackFailedOptional Starting
+123 silly rollbackFailedOptional Finishing
+124 silly runTopLevelLifecycles Finishing
+125 silly install printInstalled
+126 verbose stack Error: tunneling socket could not be established, statusCode=407
+126 verbose stack     at ClientRequest.onConnect (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:165:19)
+126 verbose stack     at ClientRequest.g (events.js:291:16)
+126 verbose stack     at emitThree (events.js:116:13)
+126 verbose stack     at ClientRequest.emit (events.js:194:7)
+126 verbose stack     at Socket.socketOnData (_http_client.js:395:11)
+126 verbose stack     at emitOne (events.js:96:13)
+126 verbose stack     at Socket.emit (events.js:188:7)
+126 verbose stack     at readableAddChunk (_stream_readable.js:176:18)
+126 verbose stack     at Socket.Readable.push (_stream_readable.js:134:10)
+126 verbose stack     at TCP.onread (net.js:548:20)
+127 verbose cwd /home/osgdev/Desktop/angular-2-beta-boilerplate-master
+128 error Linux 4.2.0-42-generic
+129 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "--save"
+130 error node v6.10.0
+131 error npm  v3.10.10
+132 error code ECONNRESET
+133 error network tunneling socket could not be established, statusCode=407
+134 error network This is most likely not a problem with npm itself
+134 error network and is related to network connectivity.
+134 error network In most cases you are behind a proxy or have bad network settings.
+134 error network
+134 error network If you are behind a proxy, please make sure that the
+134 error network 'proxy' config is set properly.  See: 'npm help config'
+135 verbose exit [ 1, true ]
